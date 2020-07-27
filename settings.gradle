@@ -1,0 +1,5 @@
+include ':app'
+include ":ppdai-annotation"
+include ":ppdai-compile"
+include ":ppdai-api"
+rootProject.name = "AnnotationProcessor"
