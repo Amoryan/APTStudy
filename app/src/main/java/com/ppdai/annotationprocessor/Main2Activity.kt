@@ -17,7 +17,7 @@ class Main2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         PPdaiHelper.inject(this)
 
-        Log.d("ppdai", "id : $id, test")
+        Log.d("ppdai", "id : $id, test hook")
     }
 
 }
